@@ -1,4 +1,4 @@
-# Implement-an-AVD-Infrastructure
+# Azure VDI Infrastructure
 
 Welcome to Implementing an Azure Virtual Desktop Infrastructure. These exercise files are meant to accompany my course on Pluralsight. The course was originally developed in May of 2022, using PowerShell version 7.2.2, Azure PowerShell module version 7.5.0, Azure CLI version 2.30.0, and Terraform 1.1.2. All of the exercise files should continue to be valid on the current major version of each platform.
 
@@ -34,12 +34,3 @@ Most of the scripts assume you are using the `westus` region, since that was the
 
 Resources in Azure are **not free** and as such running through the exercises will cost you money. I recommend shutting down VMs when they are not in use. You can also choose smaller VM sizes or pick a lower tier of storage for the OS disk. Special caution goes for the Azure Firewall deployment, which cannot be "turned off" and runs about $1.25 an hour. Likewise, Azure Bastion is about $0.19 per hour, which is not as bad, but could still rack up some bills if you leave it deployed.
 
-## Learning Path
-
-This is just one course in the larger Azure Virtual Desktop learning path to help you know the AVD product better and prepare yourself for the AZ-140 exam. I think studying for a certification is a great way to motivate yourself to learn a technology, but I would also caution you to focus on more than just the exam objectives if you plan to operate AVD in a real-world scenario. While the objectives listed give you a great starting point, I can say from experience that running a VDI service is more about working with end users and less about managing the control plane.
-
-## Conclusion
-
-I hope you enjoy taking this course as much as I did creating it. I'd love to hear feedback and suggestions for revisions. Find me on Twitter ([@ned1313](https://twitter.com/Ned1313)) or drop an issue in this repository. Good luck and happy building!
-
-Ned
