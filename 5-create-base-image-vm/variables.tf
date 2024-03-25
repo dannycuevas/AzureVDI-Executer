@@ -1,7 +1,7 @@
 variable "location" {
   type        = string
   description = "(Optional) The Azure region where the resources should be created."
-  default     = "westus"
+  default     = "eastus"
 }
 
 variable "prefix" {

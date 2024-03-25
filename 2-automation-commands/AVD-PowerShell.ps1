@@ -1,4 +1,8 @@
-# Install the module if you don't already have it
+# These series of PowerShell commands operate using a lot of different
+# variables, and running one command after the other
+
+
+# Install the PowerShell module if you don't already have it
 Install-Module Az.DesktopVirtualization
 
 # Start by setting the resource group and host pool names

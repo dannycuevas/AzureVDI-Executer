@@ -1,4 +1,6 @@
 # We are going to create an Azure VM and place it in the poolSubnet
+
+
 locals {
   base_name = "${var.prefix}-W10-MS"
 }
